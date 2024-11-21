@@ -129,15 +129,23 @@
 			</div>
 			<div class="col-sm-6">
 				<div>
-					<h4>Please upload an infected skin image</h4>
+					<!-- <h4>Please upload an infected skin image</h4>
 			<form action = "http://localhost:5000/predict" id="upload-file" method="post" enctype="multipart/form-data">
 				<label for="imageUpload" class="upload-label">
 					Choose...
 				</label>
 				<input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg">
-			</form>
+			</form> -->
 			
-
+      <div class="container">
+        <h3>Please upload an infected skin image</h3>
+        <form action="/" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*" required>
+            <button type="submit" class="btn btn-primary">Click to see which disease it is</button>
+           
+        </form>
+        <h2 id="result" class="mt-4"></h2>
+    </div>
 			<div class="image-section" style="display:none;">
 				<div class="img-preview">
 					<div id="imagePreview">
