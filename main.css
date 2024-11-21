@@ -1,0 +1,42 @@
+
+	.bg-dark {
+		background-color: #42678c!important;
+	}
+	#result {
+		color: #0a1c4ed1;
+	}
+   .bg_image {
+      background-image: url('https://www.medicalplasticsnews.com/downloads/4786/download/Medicine.jpg?cb=7364fb2aa7f8e56bd5f419e9f67878d4&w=640');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+     
+    }
+    body {
+    position: relative; 
+  }
+  #ColdSores {padding-top:50px;height:350px;color: #fff; background-color: #99DDC8;}
+  #Eczema {padding-top:50px;height:350px;color: #fff; background-color: #673ab7;}
+  #Hives {padding-top:50px;height:350px;color: #fff; background-color: #ff9800;}
+  #Melanoma {padding-top:50px;height:350px;color: #fff; background-color: #00bcd4;}
+  #Psoriasis {padding-top:50px;height:350px;color: #fff; background-color: #009688;}
+  
+  #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
